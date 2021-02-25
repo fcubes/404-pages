@@ -1,6 +1,6 @@
-.body{
-	background: url(https://sline.fun/1tenor.gif);
+body{
+	background-image: url(http://src.sline.fun/img/bg.404/demo-1/bg.jpg);
 	background-repeat: no-repeat;
-	width: 500px;
-	height: 500px;
+	width: 0px;
+	height: 0px;
 }
