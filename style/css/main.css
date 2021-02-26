@@ -6,7 +6,7 @@ body{
 	font-family: monospace;
 }
 
-.return{
+.return {
 	position: absolute;
 	text-decoration: none;
 	color: #fff;
@@ -18,3 +18,41 @@ body{
 	border: 2px solid #000;
 	box-shadow: 10px 10px 0 #54a1a9; 
 }	
+
+.return:hover {
+	box-shadow: -10px -10px #78c1ca;
+}
+
+.numberError {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.error {
+	color: #fff;
+	margin: 0;
+	font-size: 350px;
+	letter-spacing: 10px;
+}
+
+.error::before, .error::after {
+	counter-reset: attr(data-text);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100px;
+	height: 100px;
+}
+
+.notFound {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 40px;
+	padding: 0 30px;
+	border-left: 20px solid #red;
+	border-right: 20px solid #green;
+}
