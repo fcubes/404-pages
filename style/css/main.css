@@ -2,7 +2,7 @@
  */
 
 body{
-	background-image: url(./404-page/style/img/bg.404/demo-1/bg.jpg);
+	background-image: url(http://src.sline.fun/img/bg.404/demo-1/bg.jpg);
 	height: 100vh;
 	margin: 0;
 	padding: 0;
@@ -51,6 +51,7 @@ body{
 
 .notFound {
 	position: absolute;
+	color: #fff;
 	top: 60%;
 	left: 50%;
 	transform: translate(-50%, -50%);
